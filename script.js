@@ -44,7 +44,7 @@ function remove() {
 function injectPopup(img) {
   var str = `<img
     class="close-icon"
-    src="https://cdn-icons.flaticon.com/png/512/2961/premium/2961937.png?token=exp=1657558599~hmac=6dd51a1626fa1357bf0492cac2d0e216"
+    src="./assets/close.png"
     alt="close"
     width="20px"
     height="20px"
