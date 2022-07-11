@@ -1,16 +1,96 @@
 /* Type your code here */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap');
 
-
-/* change the font family and spacing as per your project font */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Nunito Sans', sans-serif;
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+	padding: 20px 150px 20px 100px;
+}
+header{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+h1{
+	font-size: 45px;
+	font-weight:bolder;
+	text-shadow: 2px 4px 4px #9d9d9d;
+}
+.subheading{
+   font-size: x-large;
+   color: #696969;
+   font-weight: bold;
+}
+.logo{
+	align-self: flex-end;
+	padding-right: 50px;
+}
+img{
+	margin: 10px;
+}
+.bg-img{
+	position: absolute;
+	bottom: 0px;
+	right: 150px;
+}
+.table{
+	margin-top: 20px;
+	position: absolute; 
+	 z-index: 999;
+}
 .footer{
     display:flex;
     flex-direction: row;
     align-content: flex-end;
-	position: relative;
-	top: 750px;
-	margin-left: 80px;
+	position: absolute;
+	bottom: 20px;
 	font-size: 18px;
-	font-family: Nunito Sans;
     font-style: normal;
     
+}
+.table{
+	width:60% ;
+	height: 60%;
+}
+table{
+	background-color: white;
+	height: 100%;
+	width: 100%;
+	box-shadow: 2px 2px 5px 1px #dcdcdc;
+	border-collapse: collapse;
+}
+tr:nth-child(1){
+	background-color:#f05136 ;
+	color: white;
+	height: 40px;
+}
+tr:nth-child(1) td, tr:nth-child(2) td{
+	font-weight: bold;
+}
+tr{
+	padding: 10px 0;
+	border-bottom: 1px solid #B8B8B8;
+}
+tr:last-child{
+	border-bottom: none;
+}
+td{
+	font-size: 16px;
+	text-align:left;
+	padding-left:  20px;
+}
+a{
+	text-decoration: none;
+	color: rgb(48, 128, 237);
+}
+span{
+	color: #B8B8B8;
+	font-weight: bold;
 }
